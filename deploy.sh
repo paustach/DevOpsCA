@@ -4,6 +4,8 @@ sudo apt update && sudo apt install nodejs npm
 sudo npm install -g pm2
 # stop any instance of our application running currently 
 pm2 stop simple_app
+# change directory into folder where application is downloaded
+cd DevOpsCA/
 # Install application dependencies
 npm install
 # start the application with the process name simple_app using pm2
